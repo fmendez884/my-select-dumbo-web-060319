@@ -7,7 +7,6 @@ def my_select(collection)
           new.push(yield collection[i])
           i = i + 1
     end
-  else
     return new
   end
 end
