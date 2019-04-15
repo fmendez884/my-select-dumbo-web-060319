@@ -1,5 +1,4 @@
 def my_select(collection)
-  if block_given?
   new = []
   i = 0
     while i < collection.length
@@ -8,5 +7,4 @@ def my_select(collection)
           i = i + 1
     end
     return new
-  end
 end
